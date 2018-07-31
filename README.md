@@ -2,6 +2,24 @@
 ### Introduction
 In this project, you'll label the pixels of a road in images using a Fully Convolutional Network (FCN).
 
+### Architecture
+
+![Original Skip Layer Architecture](misc/architecture.png)
+
+### References
+
+Paper: Fully Convolutional Networks for Semantic Segmentation
+https://arxiv.org/pdf/1411.4038.pdf
+
+Some more interesting resources to further dive deeper into Semantic Segmentation
+
+A 2017 Guide to Semantic Segmentation with Deep Learning
+http://blog.qure.ai/notes/semantic-segmentation-deep-learning-review
+
+Dense-Segmentation: Pyramid Scene Parsing (PSPnet)
+https://medium.com/@steve101777/dense-segmentation-pyramid-scene-parsing-pspnet-753b1cb6097c
+
+
 ### Setup
 ##### GPU
 `main.py` will check to make sure you are using GPU - if you don't have a GPU on your system, you can use AWS or another cloud computing platform.
